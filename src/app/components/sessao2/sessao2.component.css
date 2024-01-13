@@ -1,0 +1,17 @@
+.sessao2 {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.texto2 {
+    text-transform: uppercase;
+    font-size: 45px;
+    color: white;
+}
+
+.titulo-imagem {
+    color: white;
+    display: block;
+    /* Garante que o título seja tratado como um bloco para centralização */
+    text-align: center;
+    /* Centraliza o texto */
+}

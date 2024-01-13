@@ -1,0 +1,27 @@
+.card-body {
+    height: 180px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Isso empurra o conteúdo para cima e o preço para baixo */
+    height: 100%;
+    /* Isso garante que o card-body ocupe toda a altura disponível do card */
+}
+.produto {
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    cursor: pointer;
+}
+
+.preco {
+    color: #0072FF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.row{
+    padding: 15vh;
+}

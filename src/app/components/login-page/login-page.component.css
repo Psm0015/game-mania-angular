@@ -1,0 +1,15 @@
+.form-signin {
+    max-width: 400px;
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: white;
+    -webkit-box-shadow: 2px 1px 28px -6px rgba(255,255,255,1);
+    -moz-box-shadow: 2px 1px 28px -6px rgba(255,255,255,1);
+    box-shadow: 2px 1px 28px -6px rgba(255,255,255,1);
+}
+.container{
+    min-height: 54vh;
+    width: 100% !important;
+}
+  

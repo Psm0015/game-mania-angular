@@ -1,0 +1,15 @@
+
+
+    <div  class="row">
+        @for (produto of produtos; track $index) {
+        <div class="col-md-4 mb-4">
+            <div onclick="" class="card produto">
+                <img src="{{produto.imgPath}}" class="card-img-top" alt="Produto ${produtos[i].id}">
+                <div class="card-body d-flex flex-column justify-content-between">
+                    <p class="card-text">{{produto.titulo}}</p>
+                    <p class="preco">{{produto.preco | currency:"BRL"}}</p>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
