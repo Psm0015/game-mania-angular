@@ -1,40 +1,53 @@
 <nav class="nav-1">
-    <ul class="redesnav">
-        <li>
-            <i class="bi bi-facebook"></i>
-        </li>
-        <li>
-            <i class="bi bi-instagram"></i>
-        </li>
-        <li>
-            <i class="bi bi-twitter-x"></i>
-        </li>
-    </ul>
+  <ul class="redesnav">
+    <li>
+      <i class="bi bi-facebook"></i>
+    </li>
+    <li>
+      <i class="bi bi-instagram"></i>
+    </li>
+    <li>
+      <i class="bi bi-twitter-x"></i>
+    </li>
+  </ul>
 
-    <div class="textos-direita float-end">
-        <span class="texto">Minha Conta</span>
-        <span class="texto">Fale Conosco</span>
-    </div>
+  <div class="textos-direita float-end">
+    <span class="texto">Minha Conta</span>
+    <span class="texto">Fale Conosco</span>
+  </div>
 </nav>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid d-flex justify-content-between align-items-center">
-        <!-- Logo -->
-        <a class="navbar-brand" href="#">
-            <img class="logo" src="assets/LogoGameMania.png" alt="Logo">
-        </a>
-        <!-- Campo de pesquisa -->
-        <div style="flex-grow: 1; max-width: 800px;">
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-                <i class="bi bi-search"></i>
-            </form>
-        </div>
-
-        <!-- Login e carrinho -->
-        <div class="d-flex align-items-center login-carrinho">
-            <span style="color: white;" data-bs-toggle="modal" data-bs-target="#modalLogin"
-                class="me-3 login">Login</span>
-            <i class="bi bi-cart"></i>
-        </div>
+  <div
+    class="container-fluid d-flex justify-content-between align-items-center"
+  >
+    <!-- Logo -->
+    <a class="navbar-brand" [routerLink]="['']">
+      <img class="logo" src="assets/LogoGameMania.png" alt="Logo" />
+    </a>
+    <!-- Campo de pesquisa -->
+    <div style="flex-grow: 1; max-width: 800px">
+      <form class="d-flex">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Pesquisar"
+          aria-label="Search"
+        />
+        <i class="bi bi-search"></i>
+      </form>
     </div>
+
+    <!-- Login e carrinho -->
+    <div class="d-flex align-items-center login-carrinho">
+      <span
+        [routerLink]="['/login']"
+        style="color: white"
+        data-bs-toggle="modal"
+        data-bs-target="#modalLogin"
+        class="me-3 login"
+        >Login</span
+      >
+      <i class="bi bi-cart"></i>
+    </div>
+  </div>
 </nav>
